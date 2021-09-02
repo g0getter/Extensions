@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB54AE7626E0C8A700F6FA2D /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54AE7526E0C8A700F6FA2D /* NSMutableAttributedString.swift */; };
-		BB54AE7B26E0E74C00F6FA2D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54AE7A26E0E74C00F6FA2D /* Color.swift */; };
-		BB54AE7E26E0E75C00F6FA2D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54AE7D26E0E75C00F6FA2D /* Font.swift */; };
 		BB81099E26DF3A8300D13351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81099D26DF3A8300D13351 /* AppDelegate.swift */; };
 		BB8109A026DF3A8300D13351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81099F26DF3A8300D13351 /* SceneDelegate.swift */; };
 		BB8109A226DF3A8300D13351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8109A126DF3A8300D13351 /* ViewController.swift */; };
@@ -22,9 +19,6 @@
 
 /* Begin PBXFileReference section */
 		64DF1AA789AB4563EAD7ED32 /* Pods-Extensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions.release.xcconfig"; path = "Target Support Files/Pods-Extensions/Pods-Extensions.release.xcconfig"; sourceTree = "<group>"; };
-		BB54AE7526E0C8A700F6FA2D /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
-		BB54AE7A26E0E74C00F6FA2D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		BB54AE7D26E0E75C00F6FA2D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		BB81099A26DF3A8300D13351 /* Extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB81099D26DF3A8300D13351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB81099F26DF3A8300D13351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,25 +64,8 @@
 		BB385E3326DF66D400505F65 /* StringExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				BB54AE7526E0C8A700F6FA2D /* NSMutableAttributedString.swift */,
 			);
 			path = StringExtensions;
-			sourceTree = "<group>";
-		};
-		BB54AE7726E0E71700F6FA2D /* ColorExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				BB54AE7A26E0E74C00F6FA2D /* Color.swift */,
-			);
-			path = ColorExtensions;
-			sourceTree = "<group>";
-		};
-		BB54AE7C26E0E75100F6FA2D /* FontExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				BB54AE7D26E0E75C00F6FA2D /* Font.swift */,
-			);
-			path = FontExtensions;
 			sourceTree = "<group>";
 		};
 		BB81099126DF3A8300D13351 = {
@@ -112,8 +89,6 @@
 		BB81099C26DF3A8300D13351 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BB54AE7C26E0E75100F6FA2D /* FontExtensions */,
-				BB54AE7726E0E71700F6FA2D /* ColorExtensions */,
 				BB385E3326DF66D400505F65 /* StringExtensions */,
 				BB81099D26DF3A8300D13351 /* AppDelegate.swift */,
 				BB81099F26DF3A8300D13351 /* SceneDelegate.swift */,
@@ -225,11 +200,8 @@
 			files = (
 				BB8109A226DF3A8300D13351 /* ViewController.swift in Sources */,
 				BB81099E26DF3A8300D13351 /* AppDelegate.swift in Sources */,
-				BB54AE7E26E0E75C00F6FA2D /* Font.swift in Sources */,
-				BB54AE7626E0C8A700F6FA2D /* NSMutableAttributedString.swift in Sources */,
 				BB8109A026DF3A8300D13351 /* SceneDelegate.swift in Sources */,
 				BB8109A826DF3A8300D13351 /* Extensions.xcdatamodeld in Sources */,
-				BB54AE7B26E0E74C00F6FA2D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
